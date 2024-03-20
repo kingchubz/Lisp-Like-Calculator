@@ -96,4 +96,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>MKDIR "$(TargetDir)help"
+copy "$(ProjectDir)help\help.chm" "$(TargetDir)help\help.chm"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
