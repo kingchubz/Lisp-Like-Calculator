@@ -1,4 +1,7 @@
 # Lisp Like Calculator
+
+![Image1](/Lisp_Interpreter/img/llc1.png)
+
 This is an incomplete Scheme (a dialect of Lisp) interpreter. Without any system IO it can be used as fancy, but inconvenient, calculator.
 
 ## Implemented Features
